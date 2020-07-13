@@ -1,0 +1,74 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './satp.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+/*
+label {
+  font-weight: 700;
+}
+*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {padding: 10px;}
+
+// dialog style
+.el-dialog {max-height: 90%;margin-top: 2% !important;overflow-y: auto;}
+.el-dialog__header {padding: 10px 20px 10px 20px;}
+.el-dialog__title{font-size: 14px;border-left:2px solid #409EFF;padding-left:2px;font-weight: 700;}
+.el-dialog__headerbtn{top:13px;}
+.el-dialog__body{padding:0px 20px 10px 20px;}
+.el-dialog__footer{padding-bottom:15px;}
+

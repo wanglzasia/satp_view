@@ -1,0 +1,94 @@
+/**
+ satp dev group
+
+**/
+.satp-title{font-size: 14px;border-left:2px solid #409EFF;padding-left:2px;font-weight: 700;margin-bottom: 10px;}
+
+//table
+.satp-table-detail {border-collapse: collapse;border:1px solid #EBEEF5;font-size:14px;width:100%;color: #606266;}
+.satp-table-detail th {font-weight:500;line-height:20px;border:1px solid #EBEEF5 ;background-color:#F5F7FA;padding:8px;width:120px;text-align:left;}
+.satp-table-detail td {border-bottom:1px solid #EBEEF5;line-height:20px;border-right:1px solid #EBEEF5;background-color: #ffffff;min-width:80px;padding:8px;}
+
+
+.satp-table-grade {border-collapse: collapse;border:1px solid #EBEEF5;font-size:13px;width:100%;color: #606266;}
+.satp-table-grade th {font-weight:500;line-height:20px;border:1px solid #EBEEF5 ;background-color:#F5F7FA;padding:5px;text-align:left;}
+.satp-table-grade td {border-bottom:1px solid #EBEEF5;line-height:15px;border-right:1px solid #EBEEF5;background-color: #ffffff;padding:5px;}
+
+
+.satp-detail-box{padding:0 0 0 5px;margin:0 0 5px 0}
+.satp-detail-box .title{font-size: 14px;border-left:2px solid #409EFF;padding-left:2px;font-weight: 700;margin-bottom: 10px;}
+// form
+.satp-from-btngrp-mini{width:100px;float:right;}
+.satp-from-btngrp-small{width:150px;float:right;}
+.satp-from-btngrp-std{width:200px;float:right;}
+.satp-from-btngrp-large{width:250px;float:right;}
+.satp-form-inline .el-input{width: 95%;}
+.satp-form-inline .el-form-item__label{padding:0 7px 0 0;}
+.el-form--label-left .el-form-item__label{text-align: right;}
+.satp-form-label-top .el-form-item__label{padding:0 0 0;}
+.satp-form-label-top .el-form-item{margin-bottom: 5px;}
+.satp-date-editor-datetime{width: '100%' !important}
+
+// .satp-form-label-top .el-form-item--mini.el-form-item, .el-form-item--small.el-form-item
+.satp-form-label-top .el-date-editor.el-input, .el-date-editor.el-input__inner{width:100%;}
+
+// 用户弹窗
+.satp-userwin .cell{line-height: 12px;padding:5px 5px 5px 5px;cursor: pointer;white-space: nowrap;overflow: hidden;}
+
+.satp-userwin .el-table__row td{padding:5px 0px 5px 0px;white-space: nowrap;overflow: hidden;}
+
+// SATP-GRID
+.satp-grid-title{font-size: 14px;border-left:2px solid #409EFF;padding-left:2px;font-weight: 700;margin-bottom: 10px;}
+.satp-grid button {padding: 4px 6px;}
+.satp-grid .cell>span {padding: 4px 6px;}
+.satp-grid .el-button--text {color:#606266;}
+.satp-grid .el-button--text.el-button--mini, .satp-grid .el-button--text.el-button--small{padding: 0px 0px;font-size: 14px;}
+.satp-grid .el-button--text>i:focus,.satp-grid .el-button--text>i:hover {color:#66b1ff;}
+.satp-grid .el-table__body td, .satp-grid .el-table__body th{padding: 8px 0px;}
+.satp-grid .menu-func{font-size:13px;color:#66b1ff;}
+
+
+.satp-grid-mini button {padding: 4px 6px;}
+.satp-grid-mini .cell>span {padding: 4px 6px;}
+.satp-grid-mini .el-button--text {color:#606266;}
+.satp-grid-mini .el-button--text.el-button--mini, .satp-grid-mini .el-button--text.el-button--small{padding: 0px 0px;font-size: 14px;}
+.satp-grid-mini .el-button--text>i:focus,.satp-grid-mini .el-button--text>i:hover {color:#66b1ff;}
+.satp-grid-mini .el-table td, .satp-grid-mini .el-table th{padding: 2px 0px;}
+
+.satp-grid-mid button {padding: 4px 6px;}
+.satp-grid-mid .cell>span {padding: 4px 6px;}
+.satp-grid-mid .el-button--text {color:#606266;}
+.satp-grid-mid .el-button--text.el-button--mid, .satp-grid-mid .el-button--text.el-button--small{padding: 0px 0px;font-size: 16px;}
+.satp-grid-mid .el-button--text>i:focus,.satp-grid-mid .el-button--text>i:hover {color:#66b1ff;}
+.satp-grid-mid .el-table td, .satp-grid-mid .el-table th{padding: 4px 0px;}
+
+
+
+.satp-grid-toolbar {
+  margin-bottom: 5px;
+}
+// 分页指示器容器样式
+.satp-pagination-container{
+  text-align: right;
+  padding:5px 0px 5px 0px;
+}
+//title
+.satp-div-titles{line-height: 30px;float: left;padding-bottom: 5px;}
+.satp-div-titles:before{content:"";width: 3px;height: 20px;background-color: #409eff;float: left;margin: 5px 5px 0px -5px;}
+
+//右键菜单     absolute relative
+
+.satp-context-menu{
+  -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  float:left;
+  border-left:1px solid #e6e6e6;
+  border-top:1px solid #e6e6e6;
+  border-bottom:1px solid #e6e6e6;
+  width:100px;
+  position: absolute;}
+.satp-context-menu .el-menu-item{ height: 28px;line-height: 28px;}
+.satp-context-menu .el-menu-item>span{ font-size: 14px;color: #606266;}
+
+
+

@@ -1,0 +1,65 @@
+{
+  "id": "1810495",
+  "name": "satp",
+  "font_family": "iconfont",
+  "css_prefix_text": "satp-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "975320",
+      "name": "属性",
+      "font_class": "attribute",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "1183025",
+      "name": "属性",
+      "font_class": "shuxing",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "1761480",
+      "name": "关联",
+      "font_class": "guanlian1",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "569255",
+      "name": "svg_home",
+      "font_class": "svghome",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "609877",
+      "name": "中国移动",
+      "font_class": "zhongguoyidong",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1818066",
+      "name": "机构",
+      "font_class": "institute",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "2742637",
+      "name": "关联",
+      "font_class": "guanlian",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "11057610",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    }
+  ]
+}
